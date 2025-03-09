@@ -28,9 +28,9 @@ http://localhost:<backend-port>
 
 
 #### Accessing from Other Systems (Same Network)
-- If your system has a local network IP (e.g., `192.168.1.100`), other devices in the same network can access your application.
+- If your system has a local network IP (e.g., `192.xxx.x.xx`), other devices in the same network can access your application.
 - Instead of `localhost`, use your system's 
-IP address:http://192.168.1.100:<frontend-port>for the frontend, and  http://192.168.1.100:<backend-port>for the backend.
+IP address:http://192.xxx.x.xx:<frontend-port>for the frontend, and  http://192.xxx.x.xx:<backend-port>for the backend.
 - This works because both the frontend and backend are running on the same IP but different ports.
 
 ### Summary
@@ -39,8 +39,8 @@ IP address:http://192.168.1.100:<frontend-port>for the frontend, and  http://192
 |--------------------------|-----------------------------|
 | Local System (Frontend)  | `http://localhost:3000`     |
 | Local System (Backend)   | `http://localhost:5000`     |
-| Other Systems (Frontend) | `http://192.168.1.100:3000` |
-| Other Systems (Backend)  | `http://192.168.1.100:5000` |
+| Other Systems (Frontend) | `http://192.xxx.x.xx:3000` |
+| Other Systems (Backend)  | `http://192.xxx.x.xx:5000` |
 
 This setup allows others on the same network to use your application without running it on their own machines.
   
