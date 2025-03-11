@@ -53,6 +53,6 @@ After started the script
 ![Server start!](./Assets/localhost.png)
 ![Server start!](./Assets/localhost_image.png)
 
-** ## Note**
+**Note**
 - This script requires administrative privileges to function correctly, especially when accessing remote computers or systems.
 - Granting administrative access is necessary for this script to execute successfully on other computers or systems.
