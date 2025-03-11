@@ -52,3 +52,7 @@ After started the script
 #### Not connected to the network
 ![Server start!](./Assets/localhost.png)
 ![Server start!](./Assets/localhost_image.png)
+
+** ## Note**
+- This script requires administrative privileges to function correctly, especially when accessing remote computers or systems.
+- Granting administrative access is necessary for this script to execute successfully on other computers or systems.
